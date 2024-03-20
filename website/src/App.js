@@ -1,4 +1,5 @@
 import InfoRow from "./components/infoRow"
+import ImageGallery from "./components/imageGallery"
 export default function App() {
 
 
@@ -44,34 +45,72 @@ export default function App() {
         <div className="mt-10"> </div>
         <p className = "absolute ml-32 mr-24 md:mx-28 lg:mx-40 text-2xl mt-8 font-kode">courses</p>
         <InfoRow image_src = "./tetris-4.png"/>
-        <p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-6"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-4 text-slate-600"> 
+          Computer Science
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Data Structures in Java
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Advanced Programming in C
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Introduction to Databases 
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Discrete Math 
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Linear Algebra
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Multivariable Calculus
         </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <p className="mx-32 mt-0"> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Calculus-Based Statistics
         </p>
         
+        <p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-4 text-slate-600"> 
+          Others!
+        </p>
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Principles of Economics
+        </p>
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Intermediate Macroeconomics
+        </p>
+        <p className="mx-32 mr-2 mt-0 font-mono "> 
+          ❧ Latin I
+        </p>
+        
+        <div className="mt-20"> </div>
+        <p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-kode mt-10 text-2xl"> 
+          contact info
+        </p>
+        <div className="grid grid-rows-3 mx-28 pb-72">
+          <a href="https://www.linkedin.com/in/teresa-shao/" target ="_blank">
+            <div className="m-2 flex items-center">
+              <img src="./linkedin.png" className="h-6 w-6 m-2" alt="LinkedIn Logo"></img>
+              <p className="pl-4 mt-1 text-xl font-mono">Teresa Shao</p>
+            </div>
+          </a>
+          <a href="https://github.com/teresashao" target ="_blank">
+            <div className="m-2 flex items-center">
+              <img src="./github.svg" className="h-6 w-6 m-2" alt="GitHub Logo"></img>
+              <p className="pl-4 mt-1 text-xl font-mono">teresashao</p>
+            </div>
+          </a>
+          <a href="mailto:ts3488@columbia.edu">
+            <div className="m-2 flex items-center">
+              <img src="./email.webp" className="h-6 w-6 m-2" alt="Email Logo"></img>
+              <p className="pl-4 mt-1 text-xl font-mono">ts3488@columbia.edu</p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <ImageGallery />
+        </div>
       </div>
     
     </div>
