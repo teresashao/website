@@ -3,9 +3,9 @@ import React, {useState} from 'react';
 const ImageGallery = () => {
   // Sample image URLs
   const images = [
-    'email.webp',
-    'github.svg',
-    'linkedin.png'
+    'pasta.jpg',
+    'sushi.png',
+    'table.png'
   ];
 
   // State to keep track of the current image index
@@ -25,24 +25,22 @@ const ImageGallery = () => {
 
   return (
     <div className="flex justify-center">
-      <h1 className="text-3xl font-semibold">Image Gallery</h1>
-      <div className="flex">
-        <button
-            onClick={handlePrevious}
-            className="text-white text-lg p-2 w-12 rounded">
-            <p className="text-4xl text-slate-700"> ☜ </p>
-          </button>
+      <div className="relative justify-middle group">
+        <div className="absolute justify-between opacity-0 group-hover:opacity-100">
+          <div className="flex justify-between">
+            <button
+              onClick={handleNext}
+              className="flex-row text-white text-lg mt-24 ml-48 w-12 rounded text-right">
+              <p className="text-4xl">➠</p>
+            </button>
+          </div>
+      
+        </div>
         <img
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex + 1}`}
-          className="rounded h-40 w-40"
+          className="rounded object-cover h-60 w-60"
         />
-        <button
-        onClick={handleNext}
-        className="text-white text-lg p-2 w-12 rounded"
-        >
-        <p className="text-4xl text-slate-700">☞</p>
-        </button>
       </div>
     </div>
   );

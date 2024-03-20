@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         kode: ['Kode Mono', "sans-serif"],
+        bric: ['Bricolage Grotesque', "sans-serif"],
       }
     },
   },
