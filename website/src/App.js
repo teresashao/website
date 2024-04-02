@@ -4,10 +4,10 @@ export default function App() {
 
 
   return (
-    <div>
-      <div className="bg-stone-200">
+
+      <div className="bg-stone-200 max-h-screen">
         <div className="flex justify-center">
-        <h3 className="text-5xl mt-20 font-bric font-bold absolute text-amber-300">
+        <h3 className="text-5xl pt-20 font-bric font-bold absolute text-amber-300">
           Teresa Shao 
         </h3>
         <h3 className="text-5xl mt-20 ml-2 font-bric font-bold absolute">
@@ -186,8 +186,6 @@ export default function App() {
         </div>
         
       </div>
-    
-    </div>
   )
 }
 
