@@ -5,7 +5,7 @@ export default function App() {
 
   return (
 
-      <div className="bg-stone-200 max-h-screen">
+      <div className="bg-stone-200">
         <div className="flex justify-center">
         <h3 className="text-5xl pt-20 font-bric font-bold absolute text-amber-300">
           Teresa Shao 
