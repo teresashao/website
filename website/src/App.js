@@ -21,9 +21,10 @@ export default function App() {
           <div className = "ml:w-3/5 lg:w-3/5">
             <p>I am a sophomore at Columbia University studying Computer Science.  Currently, I am a software engineering intern at MeetKai. On campus, I am a teaching assistant for COMS 3157: Advanced Programming in C, and a research assistant at Columbia Speech Lab where my work is focused on natural language processing. </p>
             <br></br>
-            <p>I am from Shanghai and the SF Bay Area. In my free time, I enjoy hiking, design, and the culinary arts!</p>
+            <p>I am from Shanghai and the SF Bay Area. In my free time, I enjoy hiking, puzzles, design, and <a href="#cooking" className="underline">cooking</a>!</p>
             <br></br>
-            <p>You can find me on GitHub and LinkedIn. Feel free to reach out via email!</p>
+            <p>You can find me on <a href="https://github.com/teresashao" target ="_blank" className="underline">GitHub</a> and <a href="https://www.linkedin.com/in/teresa-shao/" target ="_blank" className="underline">LinkedIn</a>. Feel free to reach out via <a href="mailto:ts3488@columbia.edu" className="underline">email</a>!</p>
+
           </div>
           <div className="w-4/5 ml:w-2/5 lg:w-2/5 mt-0 mr-0 align-middle justify-center">
             <img src="portrait.png" alt="portrait" className="scale-90 w-4/5 aspect-square"></img>
@@ -172,10 +173,10 @@ export default function App() {
           <div className="">
             <p className = "text-2xl font-kode mt-10">for fun</p>
             <p className="font-mono mt-1 text-slate-600"> 
-              designing - Columbia Women's Business Society @columbiacwbs 
+              design stuff -- Columbia Women's Business Society @columbiacwbs 
             </p>
-            <p className="font-mono mt-1 text-slate-600"> 
-              crumbs of my cooking!
+            <p id="cooking" className="font-mono mt-1 text-slate-600"> 
+              some of my cooking: 
             </p>
 
             <div className="mt-10"> </div>
