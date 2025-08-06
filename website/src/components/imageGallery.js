@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const ImageGallery = () => {
   // Sample image URLs
   const images = [
-    'pasta.jpg',
-    'sushi.png',
-    'table.png'
+    'website/pasta.jpg',
+    'website/sushi.png',
+    'website/table.png'
   ];
 
   // State to keep track of the current image index
@@ -32,10 +32,10 @@ const ImageGallery = () => {
           <p className="text-4xl">˱</p>
         </button>
         <img
-        src={images[currentImageIndex]}
-        alt={`Image ${currentImageIndex + 1}`}
-        className="rounded object-cover h-60 w-60 ml-10"
-      />
+          src={images[currentImageIndex]}
+          alt={`Image ${currentImageIndex + 1}`}
+          className="rounded object-cover h-60 w-60 ml-10"
+        />
         <button
           onClick={handleNext}
           className="flex-row text-slate-600 text-lg w-12 rounded-md text-right">
