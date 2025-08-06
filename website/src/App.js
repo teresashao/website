@@ -18,7 +18,7 @@ export default function App() {
 
 			<div className="mt-20"> </div>
 			<p className="absolute ml-32 mr-24 md:mx-28 lg:mx-40 text-2xl mt-1 font-kode">hello world! </p>
-			<InfoRow image_src="website/tetris-1.png" />
+			<InfoRow image_src=" tetris-1.png" />
 
 			<div className="flex flex-col lg:flex-row items-start justify-center gap-12 ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-4">
 				<div className="lg:w-3/5">
@@ -37,7 +37,7 @@ export default function App() {
 
 				<div className="lg:w-2/5 flex justify-center">
 					<img
-						src="website/portrait.png"
+						src=" portrait.png"
 						alt="portrait"
 						className="w-40 sm:w-48 md:w-56 lg:w-64 xl:w-72 drop-shadow-xl"
 					/>
@@ -46,7 +46,7 @@ export default function App() {
 
 			<div className="mt-10"> </div>
 			<p className="absolute ml-32 mr-24 md:mx-28 lg:mx-40 mt-2 text-2xl font-kode">experience</p>
-			<InfoRow image_src="website/tetris-2.png" />
+			<InfoRow image_src=" tetris-2.png" />
 			<p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-4 text-slate-600">
 				SWE Internship @ Meta
 			</p>
@@ -114,7 +114,7 @@ export default function App() {
 
 			<div className="mt-10"> </div>
 			<p className="absolute ml-32 mr-24 md:mx-28 lg:mx-40 mt-4 text-2xl font-kode">projects</p>
-			<InfoRow image_src="website/tetris-3.png" />
+			<InfoRow image_src=" tetris-3.png" />
 			<p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-1 text-slate-600">
 				Journify | Flask, ReactJS, Tailwind CSS
 			</p>
@@ -138,7 +138,7 @@ export default function App() {
 
 			<div className="mt-8"> </div>
 			<p className="absolute ml-32 mr-24 md:mx-28 lg:mx-40 text-2xl mt-8 font-kode">courses</p>
-			<InfoRow image_src="website/tetris-4.png" />
+			<InfoRow image_src=" tetris-4.png" />
 			<p className="ml-32 mr-24 md:mx-28 lg:mx-40 font-mono mt-4 text-slate-600">
 				CS-Math
 			</p>
@@ -212,19 +212,19 @@ export default function App() {
 						<div className="grid grid-rows-3 mx-28 pb-72">
 							<a href="https://www.linkedin.com/in/teresa-shao/" target="_blank">
 								<div className="m-2 flex items-center">
-									<img src="website/linkedin.png" className="h-6 w-6 m-2" alt="LinkedIn Logo"></img>
+									<img src=" linkedin.png" className="h-6 w-6 m-2" alt="LinkedIn Logo"></img>
 									<p className="pl-4 mt-1 text-xl font-mono">Teresa Shao</p>
 								</div>
 							</a>
 							<a href="https://github.com/teresashao" target="_blank">
 								<div className="m-2 flex items-center">
-									<img src="website/github.svg" className="h-6 w-6 m-2" alt="GitHub Logo"></img>
+									<img src=" github.svg" className="h-6 w-6 m-2" alt="GitHub Logo"></img>
 									<p className="pl-4 mt-1 text-xl font-mono">teresashao</p>
 								</div>
 							</a>
 							<a href="mailto:ts3488@columbia.edu">
 								<div className="m-2 flex items-center">
-									<img src="website/email.webp" className="h-6 w-6 m-2" alt="Email Logo"></img>
+									<img src=" email.webp" className="h-6 w-6 m-2" alt="Email Logo"></img>
 									<p className="pl-4 mt-1 text-xl font-mono">ts3488@columbia.edu</p>
 								</div>
 							</a>

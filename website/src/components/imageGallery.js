@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 const ImageGallery = () => {
   // Sample image URLs
   const images = [
-    'website/pasta.jpg',
-    'website/sushi.png',
-    'website/table.png'
+    ' pasta.jpg',
+    ' sushi.png',
+    ' table.png'
   ];
 
   // State to keep track of the current image index
